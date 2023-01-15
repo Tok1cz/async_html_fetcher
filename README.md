@@ -12,7 +12,7 @@ download the github folder
 
 install the necessary libraries
 especially httpx with async support 
-('pip install httpx-socks[asyncio]')
+(```pip install httpx-socks[asyncio]```)
 
 Download the [tor client]
 (https://www.torproject.org/download/tor/)
