@@ -1,4 +1,4 @@
-# asynch_html_fetcher
+# async_html_fetcher
 A simple program that fetches webpages from a list of urls and saves the results as html files.
 
 ## Disclaimer:
