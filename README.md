@@ -8,24 +8,33 @@ Use at own risk.
 
 ## Usage:
 
-download the github folder
+1. Download the github folder
 
-install the necessary libraries
-especially httpx with async support 
+2. Install the necessary libraries
+
+ -> especially httpx with async support
+
 (```pip install httpx-socks[asyncio]```)
 
-Download the [tor client]
-(https://www.torproject.org/download/tor/)
+3. Download the [tor client](https://www.torproject.org/download/tor/)
 
-Add tor to path
-press ```win+r```, type ```cmd``` - ```enter``` (open command line on windows) 
-Type ```tor```
-wait until >Bootstrapped 100%
+4. Add tor to path
+        -> press ```win+r```, type ```cmd``` - ```enter``` (open command line on windows) 
 
-run the method ```run_fetch(url_list)``` with a list containing strings of the desired urls
+        -> Type tor
+
+        -> wait until
+
+        -> Bootstrapped 100%
+
+5. run the method ```run_fetch(url_list)``` with a list containing strings of the desired urls
+
+
+### Note of run_fetch
 
 
         
+        ```
         run_fetch(url_list):
         
         Loads the webpages from links and saves them as html
@@ -45,4 +54,5 @@ run the method ```run_fetch(url_list)``` with a list containing strings of the d
         method, but will not be written to a file.
 
         A Tor Daemon has to be running (Port 9050).
+        ```
       
